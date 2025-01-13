@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- REMIXICON -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css"
+        integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- CSS link -->
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>To Do List</title>
+</head>
+
+<body>
+    <div class="todo-list-app">
+        <h1 class="title">To Do List</h1>
+        <div class="todo-container">
+            <div class="form">
+                <input type="text" class="task-input" id="task-input" placeholder="Write your to do task here">
+                <button class="add-btn" id="add-btn" onclick="addTaksItems()">Add</button>
+            </div>
+            <ul id="todo-list"></ul>
+        </div>
+    </div>
+    <!-- Main JS -->
+    <script src="JS/main.js"></script>
+</body>
+
+</html>
