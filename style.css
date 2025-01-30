@@ -76,6 +76,13 @@ body {
 
 .done .todo-text {
     text-decoration: line-through;
+    color: gray;
+}
+
+
+.done {
+    background-color: #e0e0e0;
+    opacity: 0.6;
 }
 
 #delbtnri {
